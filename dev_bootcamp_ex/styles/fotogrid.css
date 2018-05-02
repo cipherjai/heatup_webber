@@ -1,0 +1,23 @@
+
+.navbar{
+  width: 100%;
+  margin: 0px;
+
+}
+
+.left-navbar-head h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  width: 30%;
+  margin-left: 1.66%;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 16px;
+}
+
+.image_gal {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}

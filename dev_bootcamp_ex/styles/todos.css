@@ -1,0 +1,104 @@
+body{
+  background: linear-gradient(to right, grey, white);
+}
+
+
+#walk_pet{
+  background: aqua;
+}
+
+a{
+  color: black;
+  text-de-coration: none;
+}
+
+
+
+/* class */
+/* id  */
+/* element */
+/* descendant */
+/* adjacent */
+/* attribute */
+/* star */
+/* nth of type */
+
+
+/* star ---
+  adds a lot weight on browser.
+  can be used to access the childs of any element
+  do not use this technique unless no option left
+ */
+
+ /* descendant */
+ /* li a {
+ text-decoration : none;
+
+ If your selector looks like X Y Z A B.error, you're doing it wrong. Always ask yourself if it's absolutely necessary to apply all of that weight.
+ } */
+
+/* x:visited
+x:link
+
+kind of pseudo class
+used to refer the links yet to be visited
+and already visited
+*/
+
+/* x + y
+ adjacent Selectors
+ selects the immediate preceded element
+ not the child element
+
+ ul + p{
+ color : red;
+}
+
+selects only the paragraph immediately after the element ul
+*/
+
+
+/* X > Y
+  selects the direct child of the x element
+  div#container > ul{
+  will not target the ul which is part of li
+
+}
+div id="container"
+  ul --
+    li --
+      ul
+      ul
+    li
+  ul
+div
+*/
+
+/* // descendant Selectors
+li a {
+  // selects only the a tag inside of li tag
+  // can have multiple like ul li a {}
+
+} */
+
+/* attribute selector */
+
+/* a[href="www.google.com"]{
+  background : blue;
+}
+
+input[type="checkbox"]{
+  background: green;
+}
+
+/* nth of types
+ul:nth-of-type(3){
+  background: purple;
+}
+
+inheritance
+specificity -  which one is more closer
+#- ID
+. class  */
+
+ /* class attribute pseudo-class id  */

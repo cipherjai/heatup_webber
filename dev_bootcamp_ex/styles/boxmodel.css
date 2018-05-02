@@ -1,0 +1,32 @@
+p{
+  width: 50%;
+  height: auto;
+
+  line-height: 1.5;
+
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #000000;
+
+  background-color: #fbc02d;
+
+  padding: 16px;
+
+  margin: 4px;
+}
+
+td{
+  width: auto;
+  height: auto;
+
+  background-color: #000063;
+  margin: 8px 4px 4px 0px;
+
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  padding: 25px;
+  border-radius: 10px;
+}

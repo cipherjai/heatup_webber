@@ -1,0 +1,59 @@
+/* h1 {
+  color: cornflowerblue;
+  border-color: purple;
+  border-width: medium;
+  border-style: dashed;
+} */
+
+li {
+  color: gold;
+}
+
+h3 {
+  color: rgba(155, 100, 80, 0.7);
+}
+
+h2 {
+  color: lightblue;
+}
+
+.dummy{
+  background: url(https://image.freepik.com/free-vector/dripping-blue-paint-on-a-white-wood-background_1048-6143.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+body {
+  background-image: linear-gradient(to right, #efefef, #b2fef7);
+}
+/*
+  border : width style color;
+ */
+.navbar-home {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  border: 2px solid #4CAF50;
+}
+
+.navbar-left {
+  color: white;
+  display: inline;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 24px;
+}
+
+.navbar-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 24px;
+  color: white;
+  display: inline;
+}
