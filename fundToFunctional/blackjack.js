@@ -9,12 +9,12 @@
 
 let suits = ['Hearts', 'Clubs', 'Diamonds', 'Spades'];
 let values = ['Ace', 'King', 'Queen', 'Jack', 'Ten', 'Nine', 'Eight', 'Seven', 'Six','Five', 'Four', 'Three', 'Two'];
-let deck = ['x', 'y', 'z', 'a', 'b'];
+
 
 
 console.log("Welcome to BlackJack");
-console.log("You are dealt: ");
-console.log(" " + playerCards[0] + "\n " + playerCards[1]);
+
+console.log("the deck contains :");
 
 // function to create a deck
 function fCreateDeck() {
@@ -30,20 +30,13 @@ function fCreateDeck() {
     return deckCards;
 }
 
+// Create a deck for use
+let deck = fCreateDeck();
+
 // function to get next card(s)
 function fGetNextCard() {
     return deck.shift();
 }
-
-// Create a deck for use
-let deck = fCreateDeck();
-
-//player cards to show
-let playerCards = [ fGetNextCard(), fGetNextCard()];
-
-console.log(deckCards);
-console.log(deckCards.length);
-
 
 //
 
@@ -62,7 +55,15 @@ Array.prototype.shuffle = function() {
 }
 
 
-tempArray.shuffle();
+deck.shuffle();
 
 // and the result is...
-alert(tempArray);
+console.log(deck);
+
+//player cards to show
+playerCards = [ fGetNextCard(), fGetNextCard()];
+
+console.log("You are dealt :: ");
+console.log(playerCards);
+console.log(playerCards.length);
+console.log(" " + playerCards[0] + "\n " + playerCards[1]);
