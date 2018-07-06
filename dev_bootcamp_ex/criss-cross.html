@@ -3,15 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/crisscross.css">
+    <script src="scripts/drag.js" charset="utf-8"></script>
     <title>criss-cross</title>
   </head>
   <body>
 
-<div id="toe">
+<!-- <div id="toe">
 </div>
 <div class="cross">
   <div id="line_1"></div>
   <div id="line_2"></div>
+</div> -->
+
+<div class="dropzone">
+<div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain',null)">
+This div is draggable
 </div>
+</div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
+<div class="dropzone"></div>
+
+
   </body>
 </html>

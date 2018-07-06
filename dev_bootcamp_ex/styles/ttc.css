@@ -53,3 +53,7 @@ h1{
   margin: auto;
   background-color: #f00;
 }
+
+.cross {
+  margin-left: 25px;
+}
