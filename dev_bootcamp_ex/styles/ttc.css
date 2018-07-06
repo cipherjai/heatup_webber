@@ -25,3 +25,31 @@ h1{
 .repo td{
   border: 1px solid black
 }
+
+/* cross and circles*/
+#line_1 {
+  background: #000;
+  position: relative;
+  transform: rotate(45deg);
+  width: 4px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#line_2 {
+  background: #000;
+  position: relative;
+  transform: rotate(-45deg);
+  width: 4px;
+  height: 30px;
+  margin-top: -30px;
+  border-radius: 10px;
+}
+
+#toe {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #f00;
+}
