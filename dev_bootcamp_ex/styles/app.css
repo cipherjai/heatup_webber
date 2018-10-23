@@ -17,7 +17,7 @@ h2 {
   color: lightblue;
 }
 
-.dummy{
+.dummy {
   background: url(https://image.freepik.com/free-vector/dripping-blue-paint-on-a-white-wood-background_1048-6143.jpg);
   background-repeat: no-repeat;
   background-size: auto;
@@ -26,16 +26,19 @@ h2 {
 body {
   background-image: linear-gradient(to right, #efefef, #b2fef7);
 }
+
 /*
   border : width style color;
  */
+
 .navbar-home {
   display: block;
   background-color: black;
   width: 100%;
   height: auto;
   position: sticky;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
+  /* Safari */
   top: 0;
   border: 2px solid #4CAF50;
 }
