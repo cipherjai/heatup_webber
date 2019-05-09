@@ -1,0 +1,20 @@
+{
+  "name": "polymer",
+  "authors": [
+    "cipherJai <jaiatmart@gmail.com>"
+  ],
+  "description": "Level Up Polymer tut",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^3.2.0"
+  }
+}
